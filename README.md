@@ -44,14 +44,14 @@ Currently, I am working on **NYISO energy market analysis**, building copula-bas
 
 | # | Project | Domain | Highlights |
 |---|---------|--------|------------|
-| **01** | [Resilient Economic Dispatch for Thermal-Led Microgrids](project0.html) | PhD · Stochastic Optimization | Copula-based correlated scenarios + symmetric thermal penalties for robust CHP-BESS-PV dispatch; DOE & GE Vernova collaboration |
-| **02** | [IoT-Based Solar PV Monitoring](project1.html) | IoT & Cloud | Real-time cloud-connected performance dashboard; University of Malaya Research Grant (RMF0423-2021) |
-| **03** | [EV Charging Infrastructure Analysis](project2.html) | Data Analytics | Data-driven evaluation of 305 EV stations; published in *Global Energy Interconnection* |
-| **04** | [ML-Enhanced Net-Zero PV Blended Buildings](project3.html) | Sustainable Buildings | Rooftop + window PV integrated with ML & IoT for 78%+ energy self-sufficiency |
-| **05** | [Hybrid PV & Low-E Glass Retrofit for Schools](project4.html) | Renewable Energy | Energy savings and cost reduction for Bangladeshi school buildings |
-| **06** | [71.4 MW Onshore Wind Farm Design — Vietnam](project5.html) | Wind Energy | 17-turbine layout optimized for LCOE minimization and wake loss mitigation in Binh Thuan province |
-| **07** | [Grid-Connected PV Microgrid with Battery Storage](project6.html) | Microgrid Design | HOMER Pro simulation for optimal PV-BESS sizing and grid interaction |
-| **08** | [Hybrid-Powered Cold Storage for Fisheries](project7.html) | Rural Electrification | Hybrid renewable system for off-grid cold storage in a fisheries context |
+| **01** | [Resilient Economic Dispatch for Thermal-Led Microgrids](projects/project0.html) | PhD · Stochastic Optimization | Copula-based correlated scenarios + symmetric thermal penalties for robust CHP-BESS-PV dispatch; DOE & GE Vernova collaboration |
+| **02** | [IoT-Based Solar PV Monitoring](projects/project1.html) | IoT & Cloud | Real-time cloud-connected performance dashboard; University of Malaya Research Grant (RMF0423-2021) |
+| **03** | [EV Charging Infrastructure Analysis](projects/project2.html) | Data Analytics | Data-driven evaluation of 305 EV stations; published in *Global Energy Interconnection* |
+| **04** | [ML-Enhanced Net-Zero PV Blended Buildings](projects/project3.html) | Sustainable Buildings | Rooftop + window PV integrated with ML & IoT for 78%+ energy self-sufficiency |
+| **05** | [Hybrid PV & Low-E Glass Retrofit for Schools](projects/project4.html) | Renewable Energy | Energy savings and cost reduction for Bangladeshi school buildings |
+| **06** | [71.4 MW Onshore Wind Farm Design — Vietnam](projects/project5.html) | Wind Energy | 17-turbine layout optimized for LCOE minimization and wake loss mitigation in Binh Thuan province |
+| **07** | [Grid-Connected PV Microgrid with Battery Storage](projects/project6.html) | Microgrid Design | HOMER Pro simulation for optimal PV-BESS sizing and grid interaction |
+| **08** | [Hybrid-Powered Cold Storage for Fisheries](projects/project7.html) | Rural Electrification | Hybrid renewable system for off-grid cold storage in a fisheries context |
 
 ---
 

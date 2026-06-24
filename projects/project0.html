@@ -14,23 +14,23 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <!-- Portfolio CSS -->
-  <link rel="stylesheet" href="assets/css/portfolio.css" />
+  <link rel="stylesheet" href="../assets/css/portfolio.css" />
 </head>
 <body>
 
   <!-- Navbar -->
   <nav id="navbar" role="navigation" aria-label="Main navigation">
     <div class="nav-inner">
-      <a href="index.html" class="nav-brand">Kazi Zehad Mostofa</a>
+      <a href="../index.html" class="nav-brand">Kazi Zehad Mostofa</a>
       <div class="nav-links">
-        <a href="index.html#hero">Home</a>
-        <a href="index.html#about">About</a>
-        <a href="index.html#education">Education</a>
-        <a href="index.html#experience">Experience</a>
-        <a href="index.html#projects">Projects</a>
-        <a href="index.html#skills">Skills</a>
-        <a href="index.html#research">Research</a>
-        <a href="index.html#contact">Contact</a>
+        <a href="../index.html#hero">Home</a>
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#education">Education</a>
+        <a href="../index.html#experience">Experience</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#research">Research</a>
+        <a href="../index.html#contact">Contact</a>
       </div>
       <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -38,14 +38,14 @@
     </div>
   </nav>
   <div class="nav-mobile" id="nav-mobile">
-    <a href="index.html#hero">Home</a>
-    <a href="index.html#about">About</a>
-    <a href="index.html#education">Education</a>
-    <a href="index.html#experience">Experience</a>
-    <a href="index.html#projects">Projects</a>
-    <a href="index.html#skills">Skills</a>
-    <a href="index.html#research">Research</a>
-    <a href="index.html#contact">Contact</a>
+    <a href="../index.html#hero">Home</a>
+    <a href="../index.html#about">About</a>
+    <a href="../index.html#education">Education</a>
+    <a href="../index.html#experience">Experience</a>
+    <a href="../index.html#projects">Projects</a>
+    <a href="../index.html#skills">Skills</a>
+    <a href="../index.html#research">Research</a>
+    <a href="../index.html#contact">Contact</a>
   </div>
 
   <div class="page-wrapper">
@@ -53,7 +53,7 @@
     <!-- ═══════════════════════════════════════════════════ HERO -->
     <div class="project-hero">
       <div class="container">
-        <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Portfolio</a>
+        <a href="../index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Portfolio</a>
         <span class="project-hero-tag">[PhD Research Project — Power Systems &amp; Stochastic Optimization]</span>
         <h1>Gaussian-Copula-Driven Stochastic MILP for Day-Ahead Economic Dispatch of a Thermal-Led Microgrid</h1>
         <p class="project-hero-tagline">
@@ -124,7 +124,7 @@
         <div class="project-section fade-in" id="framework">
           <h2 class="project-section-title"><i class="fa-solid fa-diagram-project"></i>Dependence-Aware Dispatch Framework</h2>
           <div class="figure-wrapper fade-in">
-            <img src="images/project0_workflow diagram.png" alt="Five-step workflow: Inputs → Marginal Modeling → Copula Calibration → Scenario Generation → Stochastic MILP" />
+            <img src="../images/project0_workflow diagram.png" alt="Five-step workflow: Inputs → Marginal Modeling → Copula Calibration → Scenario Generation → Stochastic MILP" />
             <div class="figure-caption">
               <strong>Figure 1 — End-to-End Research Pipeline.</strong>
       Historical demand data is converted to hour-indexed marginals, lifted through a calibrated Gaussian copula to produce 1,000 joint 24-hour electric–thermal scenarios, then fed into a stochastic MILP that minimises expected daily operating cost subject to CHP heat–electric coupling, BESS SOC dynamics, and tariff-consistent grid exchange.
@@ -176,7 +176,7 @@
           <div class="grid-2" style="align-items:start;">
             <div>
               <div class="figure-wrapper">
-                <img src="images/project0_one line diagram.png"
+                <img src="../images/project0_one line diagram.png"
                      alt="One-line diagram of the Tok School microgrid showing CHP, PV, BESS, grid intertie, and three served facilities" />
                 <div class="figure-caption">
                   <strong>Figure 2 — Tok School Microgrid, One-Line Diagram.</strong>
@@ -304,7 +304,7 @@
         <div class="project-section fade-in" id="validation">
           <h2 class="project-section-title"><i class="fa-solid fa-chart-line"></i>Model Validation — Dependence Fidelity</h2>
           <div class="figure-wrapper fade-in">
-            <img src="images/tok_correlation_comparison metric.png"
+            <img src="../images/tok_correlation_comparison metric.png"
                  alt="Bar charts comparing overall correlation MAE and E-T block MAE for three Gaussian copula models" />
             <div class="figure-caption">
               <strong>Figure 3 — Dependence-Fidelity Comparison Across Three Copula Models.</strong>
@@ -423,7 +423,7 @@
 
           <!-- Winter dispatch figure -->
           <div class="figure-wrapper fade-in">
-            <img src="images/tok_winter_dispatch.png"
+            <img src="../images/tok_winter_dispatch.png"
                  alt="Stacked area chart showing 24-hour winter dispatch: CHP, PV, BESS discharge, and grid import, plus BESS SOC trajectory" />
             <div class="figure-caption">
               <strong>Figure 4 — Winter Day-Ahead Dispatch (January 15) — Worst-Case Copula Scenario.</strong>
@@ -485,7 +485,7 @@
           <h2 class="project-section-title"><i class="fa-solid fa-shield-halved"></i>Robustness Insights</h2>
 
           <div class="figure-wrapper fade-in">
-            <img src="images/tok_soc_sensitivity.png"
+            <img src="../images/tok_soc_sensitivity.png"
                  alt="Three-panel chart showing how increasing initial BESS SOC reduces total cost, grid import, and changes discharge event count" />
             <div class="figure-caption">
               <strong>Figure 5 — BESS Initial SOC Sensitivity (Winter Day, Jan. 15).</strong>
@@ -612,6 +612,6 @@
     </div>
   </footer>
 
-  <script src="assets/js/portfolio.js"></script>
+  <script src="../assets/js/portfolio.js"></script>
 </body>
 </html>
